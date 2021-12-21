@@ -9,29 +9,79 @@
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="container">
 
-  Order Summary
+    <div class="custom-shape-divider-top-1639169961">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+      </svg>
+  </div>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+    <div id="card">
+      <img src="images/illustration-hero.svg" alt="">
 
-  Annual Plan
-  $59.99/year
 
-  Change
-
-  Proceed to Payment
-  Cancel Order
+      <div id="everything">
+        <div id="content">
+          <h2>Order Summary</h2>
+          <div id="summary">
+            <p id="paragraph">You can now listen to millions of songs, audiobooks, and podcasts on any 
+              device anywhere you like!</p>
+          </div>
+        </div>
   
-  <div class="attribution">
+        <div id="Price">
+          <div id="left">
+            <img src="images/icon-music.svg" alt="">
+            <div id="AP">
+              <div id="Annual-Plan">
+               <b> Annual Plan</b>
+              </div>
+              <div id="fiftynine">
+                $59.99/year
+              </div>
+            </div>
+            </div>
+  
+          <div id="right">
+            <a href="google.com">
+              <div id="change">
+              Change
+              </div>
+            </a>
+          </div>
+        </div>
+      
+        <div id="Button">
+          
+        <div id="proceed-to-btn">
+          <a href="https://random.dog/"><button id="proceed">Proceed to Payment</button></a>
+        </div>
+        <div id="cancel-to-btn">
+          <button id="cancel">Cancel Order</button>
+        </div>
+        </div>
+      </div>
+    
+
+    </div>
+
+  </div>
+  
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
